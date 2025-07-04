@@ -19,7 +19,7 @@ The system detects inattentiveness based on 4 rule-based conditions:
 <img src="media/rule2.gif" width="400" alt="Head Pose Exceeds View Angle">
 
 3. **Emotion Distraction** – If the dominant emotion is not *neutral* with high confidence (>95%).
-<img src="media/rule3.gif" width="400" alt="Emotion Based Detection">
+<img src="rule3.gif" width="400" alt="Emotion Based Detection">
 
 4. **Gaze Deviation** – Gaze not within calibrated screen bounds or saccade detected.
 <img src="media/gaze.gif" width="400" alt="Gaze Deviation">
