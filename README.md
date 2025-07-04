@@ -41,7 +41,7 @@ Then, over a 3-minute window, it computes how much of the time was inattentive:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/inattentiveness-detector.git
+git clone https://github.com/fei430/inattentiveness-detector.git
 cd inattentiveness-detector
 ```
 
