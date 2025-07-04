@@ -22,7 +22,7 @@ The system detects inattentiveness based on 4 rule-based conditions:
 <img src="rule3.gif" width="400" alt="Emotion Based Detection">
 
 4. **Gaze Deviation** – Gaze not within calibrated screen bounds or saccade detected.
-<img src="media/gaze.gif" width="400" alt="Gaze Deviation">
+<img src="gaze.gif" width="400" alt="Gaze Deviation">
 
 
 Then, over a 3-minute window, it computes how much of the time was inattentive:
