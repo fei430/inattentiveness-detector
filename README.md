@@ -93,13 +93,13 @@ Before running the demo, please make sure to **download the required model weigh
 | `best_model.pth`  | `./models/`           | [Download](https://drive.google.com/file/d/1rKt0sEyuuX49lWtw9AmJHapbemdYSLjb/view?usp=sharing) |
 
 > 📌 Folder structure should look like:
+```
 project_root/
 ├── models/
 │   ├── best_model.pth
-│   └── model_final.pt
-|  ── resnet34.pt
-
-
+│   ├── model_final.pt
+│   └── resnet34.pt
+```
 
 
 
