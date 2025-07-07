@@ -76,6 +76,12 @@ pip install -r requirements.txt
 ---
 
 ## 🎥 Run the Demo
+
+```bash
+python run_demo_test.py
+```
+
+
 ### 📥 Download Pretrained Models
 
 Before running the demo, please make sure to **download the required model weights** and place them in the correct directories:
@@ -89,13 +95,13 @@ Before running the demo, please make sure to **download the required model weigh
 > 📌 Folder structure should look like:
 project_root/
 ├── models/
-│ ├── best_model.pth
-│ └── model_final.pt
-|── resnet34.pt
+│   ├── best_model.pth
+│   └── model_final.pt
+|  ── resnet34.pt
 
-```bash
-python run_demo_test.py
-```
+
+
+
 
 ### Optional Arguments:
 | Argument        | Default | Description |
