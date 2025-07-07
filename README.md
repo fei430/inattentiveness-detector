@@ -76,6 +76,22 @@ pip install -r requirements.txt
 ---
 
 ## 🎥 Run the Demo
+### 📥 Download Pretrained Models
+
+Before running the demo, please make sure to **download the required model weights** and place them in the correct directories:
+
+| File Name         | Expected Location    | Download Link |
+|------------------|----------------------|----------------|
+| `resnet34.pt`     | `./models/`           | [Download](https://drive.google.com/file/d/1yvpPey14EgAzeOFH-AvyaBGJ1039z1g3/view?usp=drive_link) |
+| `model_final.pt`  | `./models/spiga/`     | [Download](https://drive.google.com/file/d/1EYIRftQiC5QayO6DnpNX_JJJxV3HaCiu/view?usp=sharing) |
+| `best_model.pth`  | `./models/`           | [Download](https://drive.google.com/file/d/1rKt0sEyuuX49lWtw9AmJHapbemdYSLjb/view?usp=sharing) |
+
+> 📌 Folder structure should look like:
+project_root/
+├── models/
+│ ├── best_model.pth
+│ └── model_final.pt
+|── resnet34.pt
 
 ```bash
 python run_demo_test.py
