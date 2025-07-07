@@ -98,7 +98,7 @@ project_root/
 ├── models/
 │   ├── best_model.pth
 │   ├── model_final.pt
-│   └── resnet34.pt
+├── resnet34.pt
 ```
 
 
