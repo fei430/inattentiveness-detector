@@ -70,6 +70,9 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ### 4. Install Dependencies
 
 ```bash
+pip install -e .
+pip install -e .[demo]
+
 pip install -r requirements.txt
 ```
 
